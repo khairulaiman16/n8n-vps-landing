@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeInUp } from "../utils/motionVariants";
 
-const heroImgLocal = "/src/assets/images/hero.png";
+const heroImgLocal = "/images/hero.png";
 const placeholder = "https://placehold.co/720x480?text=n8n+VPS";
 
 const Img: React.FC<{ src: string; alt?: string }> = ({ src, alt }) => (

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { fadeIn } from "../utils/motionVariants";
 
-const logoPath = "/src/assets/images/logo.png";
+const logoPath = "/images/logo.png";
 const placeholder = "https://placehold.co/40x40?text=GB";
 
 const ImgWithFallback: React.FC<{ src: string; alt?: string; className?: string }> = ({
